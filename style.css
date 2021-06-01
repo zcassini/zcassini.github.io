@@ -8,11 +8,12 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 110px; /* height of sticky header */
 }
 
 body {
     display: grid;
-    grid-template-columns: 15% 1fr 15%;
+    grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 100px auto 5%;
     grid-template-areas: '. . .' '. main .' '. footer .';
     grid-gap: 10px;
@@ -35,9 +36,20 @@ header {
     background-color: var(--sandy-brown);
     position: fixed;
     height: 100px;
-    width: 70%;
-    left: 15%;
-    right: 15%;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
 }
 
 footer {
@@ -53,14 +65,14 @@ nav ul li a {
     text-decoration: none;
 }
 
-section.links div a img {
-    width: 100px;
-    height: 100px;
-}
-
-section.links div {
+.links-div {
     display: flex;
     justify-content: space-evenly;
+}
+
+.links-div-img {
+    width: 100px;
+    height: 100px;
 }
 
 main {
