@@ -31,14 +31,14 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     background-color: var(--sandy-brown);
     position: fixed;
     height: 100px;
-    width: 100%;
-    left: 0%;
-    right: 0%;
+    width: auto;
+    left: 10%;
+    right: 10%;
 }
 
 .center-div {
@@ -67,7 +67,7 @@ nav ul li a {
 
 .links-div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .links-div-img {
@@ -87,9 +87,9 @@ h1 {
 }
 
 nav {
-    width: 100%;
+    width: 30%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-right: 10px;
 }
 
