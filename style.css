@@ -140,6 +140,11 @@ article a {
     text-decoration: none;
 }
 
+.skills-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 a:link {
     color: black;
     background-color: transparent;
